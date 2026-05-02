@@ -1,0 +1,54 @@
+From bd65af9653d0d7654c5927ab5a5b39fbdb576b31 Mon Sep 17 00:00:00 2001
+From: mkrsym1 <mkrsym1@gmail.com>
+Date: Mon, 8 Sep 2025 21:05:27 +0200
+Subject: [PATCH 7/8] loader: Copy arial.ttf to fonts
+
+---
+ loader/wine.inf.in | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+diff --git a/loader/wine.inf.in b/loader/wine.inf.in
+index 92f22bce9c7..3096523471f 100644
+--- a/loader/wine.inf.in
++++ b/loader/wine.inf.in
+@@ -54,7 +54,7 @@ AddService=MountMgr,0x800,MountMgrService
+ RegisterDlls=RegisterDllsSection
+ WineFakeDlls=FakeDlls
+ UpdateInis=SystemIni
+-CopyFiles=ColorFiles,EtcFiles,InfFiles,NlsFiles,SortFiles,WinmdFiles
++CopyFiles=ColorFiles,EtcFiles,InfFiles,NlsFiles,SortFiles,WinmdFiles,FontFiles
+ AddReg=\
+     Classes,\
+     ContentIndex,\
+@@ -112,7 +112,7 @@ AddReg=\
+ [BaseWow64Install]
+ RegisterDlls=RegisterDllsSection
+ WineFakeDlls=FakeDllsWin32,FakeDllsWow64
+-CopyFiles=NlsFiles,WinmdFiles
++CopyFiles=NlsFiles,WinmdFiles,FontFiles
+ AddReg=\
+     CurrentVersion,\
+     Debugger,\
+@@ -1576,10 +1576,14 @@ windows.system.winmd
+ windows.ui.winmd
+ windows.ui.xaml.winmd
+ 
++[FontFiles]
++arial.ttf
++
+ [WineSourceDirs]
+ NlsFiles  = nls
+ SortFiles = nls
+ WinmdFiles = winmd,include
++FontFiles = fonts
+ 
+ [DestinationDirs]
+ ColorFiles = 23
+@@ -1588,3 +1592,4 @@ InfFiles  = 17
+ NlsFiles  = 11
+ SortFiles = 10,globalization\sorting
+ WinmdFiles = 11,winmetadata
++FontFiles = 20
+-- 
+2.53.0
+
