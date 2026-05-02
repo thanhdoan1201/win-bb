@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'spritz-wine*'
+      - 'wine*'
 
 jobs:
   build:
@@ -45,7 +45,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: spritz-wine-${{ matrix.build_type }}
+          name: wine-${{ matrix.build_type }}
           path: ./*.tar.xz
 
   release:
@@ -56,7 +56,7 @@ jobs:
       - name: Download release artifact
         uses: actions/download-artifact@v4
         with:
-          name: spritz-wine-release
+          name: wine-release
           path: ./artifacts/
 
       - name: Extract version from tag
@@ -70,5 +70,5 @@ jobs:
         uses: softprops/action-gh-release@v2.2.1
         with:
           files: ./artifacts/*.tar.xz
-          name: "Spritz-Wine-TkG-${{ steps.extract_version.outputs.version }}"
+          name: "Wine-TkG-${{ steps.extract_version.outputs.version }}"
           make_latest: true
