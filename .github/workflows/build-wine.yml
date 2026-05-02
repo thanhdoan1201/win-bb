@@ -1,4 +1,4 @@
-name: Build Spritz-Wine (AUR)
+name: Build Wine (AUR)
 on:
   workflow_dispatch:
   push:
@@ -63,7 +63,7 @@ jobs:
         id: extract_version
         run: |
           TAG="${{ github.ref_name }}"
-          VERSION=$(echo "$TAG" | sed -n 's/^spritz-wine-\(v[0-9]\+\.[0-9]\+-[0-9]\+\)$/\1/p')
+          VERSION=$(echo "$TAG" | sed -n 's/^wine-\(v[0-9]\+\.[0-9]\+-[0-9]\+\)$/\1/p')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
