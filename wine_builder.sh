@@ -30,7 +30,7 @@ _configuration() {
     USE_VALVE="${USE_VALVE:-false}"
 
     # Set your custom build name here:
-    BUILD_NAME="${BUILD_NAME:-wine-tkg}"
+    BUILD_NAME="${BUILD_NAME:-spritz-wine-tkg}"
 
     # Wine version settings
     WINE_VERSION=''
@@ -611,5 +611,5 @@ main() {
 ORIGPATH="${PWD:-$(pwd)}"
 _configuration "$@"
 
-Info "Building Spritz-Wine:"
+Info "Building Wine:"
 main "$@"

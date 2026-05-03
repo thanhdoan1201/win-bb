@@ -1,0 +1,87 @@
+patching file dlls/ws2_32/socket.c
+patching file configure.ac
+Hunk #1 succeeded at 3640 (offset -22 lines).
+patching file programs/steam/Makefile.in
+patching file programs/steam/steam.c
+patching file dlls/ntdll/unix/env.c
+Hunk #1 succeeded at 1874 (offset 1 line).
+Hunk #2 succeeded at 1908 (offset 1 line).
+Hunk #3 succeeded at 1954 (offset 1 line).
+patching file dlls/ntdll/unix/loader.c
+Hunk #1 succeeded at 1502 (offset -1 lines).
+patching file dlls/ntdll/unix/unix_private.h
+Hunk #1 succeeded at 237 (offset 6 lines).
+patching file dlls/ntdll/unix/loader.c
+Hunk #1 succeeded at 1878 (offset -1 lines).
+Hunk #2 succeeded at 1899 with fuzz 1 (offset -2 lines).
+patching file dlls/winex11.drv/x11drv_main.c
+patching file loader/wine.inf.in
+Hunk #3 succeeded at 1577 (offset 1 line).
+Hunk #4 succeeded at 1593 (offset 1 line).
+patching file dlls/winex11.drv/x11drv_main.c
+Hunk #1 succeeded at 225 (offset -2 lines).
+patching file dlls/wbemprox/builtin.c
+patching file dlls/winebus.sys/main.c
+patching file programs/services/services.c
+patching file dlls/winebus.sys/main.c
+patching file dlls/xinput1_3/main.c
+patching file dlls/xinput1_3/main.c
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/pnp.c
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file patches/winecfg-Staging/0006-winecfg-Toggle-upstream-CSMT-implementation.patch
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/winex11.drv/window.c
+patching file dlls/kernel32/module.c
+patching file dlls/kernel32/module.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file configure.ac
+Hunk #1 succeeded at 3289 (offset -29 lines).
+patching file dlls/wdfldr.sys/Makefile.in
+patching file dlls/wdfldr.sys/wdfldr.sys.spec
+patching file dlls/wdfldr.sys/wdfldr_main.c
+patching file dlls/wdfldr.sys/wdfldr_main.c
+patching file dlls/wdfldr.sys/wdfldr_main.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntdll/unix/sync.c
+patching file server/request.c
+patching file dlls/win32u/d3dkmt.c
+Hunk #1 succeeded at 29 with fuzz 2.
+Hunk #2 succeeded at 711 (offset 350 lines).
